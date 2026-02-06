@@ -1,45 +1,87 @@
 let infoCursos = {
-    Idiomas_basicos : [
+    Idiomas : [
         {
             id: 1,
-            titulo: 'Aprende Ingles',
+            titulo: 'Ingles',
             nivel: 'basico',
             duracion: '3 meses',
             costo: '120$'
         },
         {
             id: 2,
-            titulo: 'Aprende Frances',
+            titulo: 'Frances',
             nivel: 'basico',
             duracion: '3 meses',
             costo: '120$'
         },
         {
             id: 3,
-            titulo: 'Aprende Portugues',
+            titulo: 'Portugues',
             nivel: 'basico',
             duracion: '3 meses',
+            costo: '120$'
+        },
+        {
+            id: 4,
+            titulo: 'Ingles',
+            nivel: 'Intermedio',
+            duracion: '6 meses',
+            costo: '120$'
+        },
+        {
+            id: 5,
+            titulo: 'Frances',
+            nivel: 'Intermedio',
+            duracion: '6 meses',
+            costo: '120$'
+        },
+        {
+            id: 6,
+            titulo: 'Portugues',
+            nivel: 'Intermedio',
+            duracion: '6 meses',
             costo: '120$'
         }
     ],
-    Idiomas_Intermedios : [
+    Programacion : [
         {
             id: 1,
-            titulo: 'Aprende Ingles',
-            nivel: 'Intermedio',
-            duracion: '6 meses',
+            titulo: 'python',
+            nivel: 'basico',
+            duracion: '3 meses',
             costo: '120$'
         },
         {
             id: 2,
-            titulo: 'Aprende Frances',
+            titulo: 'Java Script',
+            nivel: 'basico',
+            duracion: '3 meses',
+            costo: '120$'
+        },
+        {
+            id: 3,
+            titulo: 'Java',
+            nivel: 'basico',
+            duracion: '3 meses',
+            costo: '120$'
+        },
+        {
+            id: 4,
+            titulo: 'python',
             nivel: 'Intermedio',
             duracion: '6 meses',
             costo: '120$'
         },
         {
-            id: 3,
-            titulo: 'Aprende Portugues',
+            id: 5,
+            titulo: 'Java Script',
+            nivel: 'Intermedio',
+            duracion: '6 meses',
+            costo: '120$'
+        },
+        {
+            id: 6,
+            titulo: 'Java',
             nivel: 'Intermedio',
             duracion: '6 meses',
             costo: '120$'

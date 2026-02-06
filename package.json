@@ -1,0 +1,16 @@
+{
+  "name": "api-idiomas",
+  "version": "1.0.0",
+  "description": "API REST de curos de idiomas con Node.js y Express",
+  "license": "ISC",
+  "author": "Axel Mendoza",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
+  }
+}

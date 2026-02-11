@@ -53,7 +53,7 @@ let infoCursos = {
         },
         {
             id: 2,
-            titulo: 'Java Script',
+            titulo: 'JavaScript',
             nivel: 'basico',
             duracion: '3 meses',
             costo: '120$'
@@ -74,7 +74,7 @@ let infoCursos = {
         },
         {
             id: 5,
-            titulo: 'Java Script',
+            titulo: 'JavaScript',
             nivel: 'Intermedio',
             duracion: '6 meses',
             costo: '120$'

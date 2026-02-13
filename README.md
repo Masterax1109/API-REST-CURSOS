@@ -60,15 +60,16 @@ Verificar funcionamiento:Abre tu navegador o envía una petición GET a http://l
 Endpoints Disponibles 🌐La API está dividida en dos rutas principales: /api/cursos/programacion y /api/cursos/idiomas. Ambos comparten la misma estructura de métodos.
 Nota: Reemplaza <categoria> por programacion o idiomas según corresponda.
 
-Método,Endpoint,Descripción
-GET,/api/cursos,Devuelve el objeto completo con ambas categorías.
-GET,/api/cursos/<categoria>,Obtiene todos los cursos de esa categoría.
-GET,/api/cursos/<categoria>/:lenguaje,Filtra los cursos por el nombre del lenguaje/idioma.
-GET,/api/cursos/<categoria>/:lenguaje/:nivel,Filtra los cursos por lenguaje y su nivel específico.
-POST,/api/cursos/<categoria>,Crea un nuevo curso.
-PUT,/api/cursos/<categoria>/:id,Actualiza un curso completo basado en su ID.
-PATCH,/api/cursos/<categoria>/:id,Modifica propiedades específicas de un curso.
-DELETE,/api/cursos/<categoria>/:id,Elimina un curso basado en su ID.
+| Método | Endpoint | Descripción |
+|---|---|---|
+| `GET` | `/api/cursos` | Devuelve el objeto completo con ambas categorías. |
+| `GET` | `/api/cursos/<categoria>` | Obtiene todos los cursos de esa categoría. |
+| `GET` | `/api/cursos/<categoria>/:lenguaje` | Filtra los cursos por el nombre del lenguaje/idioma. |
+| `GET` | `/api/cursos/<categoria>/:lenguaje/:nivel` | Filtra los cursos por lenguaje y su nivel específico. |
+| `POST` | `/api/cursos/<categoria>` | Crea un nuevo curso. |
+| `PUT` | `/api/cursos/<categoria>/:id` | Actualiza un curso completo basado en su ID. |
+| `PATCH` | `/api/cursos/<categoria>/:id` | Modifica propiedades específicas de un curso. |
+| `DELETE` | `/api/cursos/<categoria>/:id` | Elimina un curso basado en su ID. |
 
 ```
     "titulo": "C++",

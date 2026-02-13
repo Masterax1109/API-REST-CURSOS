@@ -1,0 +1,52 @@
+POST http://localhost:3000/api/cursos/programacion HTTP/1.1
+content-type: application/json
+
+
+{
+    "id": 7,
+    "titulo": "Node.js",
+    "nivel": "basico",
+    "duracion": "3 meses",
+    "costo": "120$"
+}
+
+###
+
+PUT  http://localhost:3000/api/cursos/programacion/2 HTTP/1.1
+content-type: application/json
+
+
+{
+    "id": 2,
+    "titulo": "Node.js",
+    "nivel": "Intermedio",
+    "duracion": "6 meses",
+    "costo": "120$"
+}
+
+###
+PATCH http://localhost:3000/api/cursos/programacion/2 HTTP/1.1
+content-type: application/json
+
+{
+    "titulo": "C++",
+    "costo": "240$"
+}
+
+###
+
+DELETE http://localhost:3000/api/cursos/programacion/1 HTTP/1.1
+
+###
+
+POST http://localhost:3000/api/cursos/idiomas HTTP/1.1
+content-type: application/json
+
+
+{
+    "id": 8,
+    "titulo": "chino",
+    "nivel": "basico",
+    "duracion": "3 meses",
+    "costo": "120$"
+}
